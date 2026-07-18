@@ -1,0 +1,6 @@
+name: ChatClearOnJoin
+version: '1.0.0'
+main: de.kanst.chatclearonjoin.ChatClearOnJoin
+api-version: '1.21'
+author: gobo20
+description: Clears chat 1 second after someone joins

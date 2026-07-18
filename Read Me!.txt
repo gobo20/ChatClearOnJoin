@@ -1,0 +1,24 @@
+Server Setup - JoinNotifier 1.2
+1. Install
+Put JoinNotifier-1.2.0.jar into plugins/
+Delete any old JoinNotifier-1.1.0.jar if you have it.
+
+2. Generate config
+Start the server once, then run stop.
+This creates plugins/JoinNotifier/config.yml.
+
+3. Add Webhook
+In Discord: Right-click channel -> Edit Channel -> Integrations -> Webhooks -> New Webhook -> Copy URL.
+
+Open plugins/JoinNotifier/config.yml and set:
+
+YAML
+discord-webhook: "https://discord.com/api/webhooks/123456/ABC..."
+Must be discord-webhook: - NOT webhook-url:
+
+4. Start
+Console must show:
+
+Code
+JoinNotifier v1.2 enabled - Webhook: true
+Join server -> you get the green ✅ Player joined message in Discord.

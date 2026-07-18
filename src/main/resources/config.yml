@@ -1,0 +1,6 @@
+# How many seconds to wait after join
+delay-seconds: 1
+# How many empty lines to send (100 = full clear)
+clear-lines: 100
+# Clear for all players (true) or only for the player who joined (false)
+clear-for-all: true
